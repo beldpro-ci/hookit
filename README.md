@@ -4,13 +4,13 @@
 
 Hookit automatically creates and listen to GitHub WebHooks, running a specified command after push events.
 
-* Simple usage - see the [example](#usage)
-* Signated WebHooks by default 
-* No dependencies
+* Simple usage - see the [example](#usage).
+* Signated WebHooks by default.
+* No dependencies.
 
 ## Setup
 
-Download and make Hookit Python script available for usage:
+Download and **make Hookit Python script available** for usage:
 
 ```sh
 $ curl https://raw.githubusercontent.com/MateusZitelli/hookit/master/hookit > /usr/local/bin/hookit; chmod +x /usr/local/bin/hookit
@@ -18,9 +18,9 @@ $ curl https://raw.githubusercontent.com/MateusZitelli/hookit/master/hookit > /u
 
 ## Usage
 
-*Create an access token* [here](https://github.com/settings/tokens/new) with the `write:repo_hook` scope.
+**Create an access token** [here](https://github.com/settings/tokens/new) with the `write:repo_hook` scope.
 
-With the GitHub access token in hands *create a configuration file* named `.env`:
+With the GitHub access token in hands **create a configuration file** named `.env`:
 
 ```
 GITHUB_ACCESS_TOKEN=<The created Access Token>
