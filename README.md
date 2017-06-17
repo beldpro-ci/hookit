@@ -8,6 +8,8 @@ Hookit automatically creates and listen to GitHub WebHooks, running a specified 
 * Signated WebHooks by default 
 * No dependencies
 
+[![Hookit usage](https://asciinema.org/a/125096.png)](https://asciinema.org/a/125096)
+
 ## Setup
 
 Download and make Hookit Python script available for usage:
